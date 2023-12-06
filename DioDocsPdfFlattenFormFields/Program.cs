@@ -6,6 +6,8 @@ using GrapeCity.Documents.Text;
 
 Console.WriteLine("フォームフィールドをフラット化");
 
+//GcPdfDocument.SetLicenseKey("");
+
 #region フォームフィールドに値を設定
 var doc = new GcPdfDocument();
 var fc = new FontCollection();
